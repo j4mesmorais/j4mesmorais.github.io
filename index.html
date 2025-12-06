@@ -1,5 +1,124 @@
 <!doctype html>
 <html lang="pt-BR">
-<head><meta charset="utf-8"><title>Imóvel N001</title><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body><h1>Imóvel N001</h1><p>Descrição do imóvel...</p></body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Casa de Condomínio — Itaum | Pistori</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- SEO / social -->
+  <meta name="description" content="Casa de Condomínio 3 quartos, 107m² — Itaum. Fotos, descrição, contato e mapa.">
+</head>
+<body>
+  <main class="page">
+    <header class="top">
+      <div class="title-block">
+        <h1>Casa de Condomínio com 3 Quartos à venda, 107m² — Itaum</h1>
+        <div class="meta">
+          <span class="chip">Metragem <strong>107 m²</strong></span>
+          <span class="chip">Quartos <strong>3</strong></span>
+          <span class="chip">Banheiros <strong>3</strong></span>
+          <span class="chip">Vagas <strong>1</strong></span>
+        </div>
+        <p class="published">Publicado há 3 anos, atualizado há 5 horas.</p>
+      </div>
+
+      <aside class="map-block">
+        <!-- Substitua src pelo embed do Google Maps (ou deixe como imagem/placeholder) -->
+        <iframe class="map-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d... (cole seu embed do google maps)"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="btn btn-primary full-map" href="#" target="_blank">Saiba mais sobre o imóvel</a>
+      </aside>
+    </header>
+
+    <section class="content-grid">
+      <section class="gallery-column">
+        <!-- Glide carousel -->
+        <div class="glide" id="mainGlide">
+          <div data-glide-el="track" class="glide__track">
+            <ul class="glide__slides">
+              <!-- Troque os src para os seus arquivos em assets/imgs/ -->
+              <li class="glide__slide"><img src="assets/imgs/N001-1.jpg" alt="Fachada"></li>
+              <li class="glide__slide"><img src="assets/imgs/N001-2.jpg" alt="Sala"></li>
+              <li class="glide__slide"><img src="assets/imgs/N001-3.jpg" alt="Quarto"></li>
+            </ul>
+          </div>
+
+          <div class="controls">
+            <button data-glide-dir="<" class="nav prev" aria-label="Anterior">‹</button>
+            <div class="counter"><span id="currentSlide">1</span>/<span id="totalSlides">3</span></div>
+            <button data-glide-dir=">" class="nav next" aria-label="Próximo">›</button>
+          </div>
+
+          <!-- thumbnails -->
+          <div class="thumbnails" id="thumbs">
+            <img data-index="0" src="assets/imgs/N001-1.jpg" alt="">
+            <img data-index="1" src="assets/imgs/N001-2.jpg" alt="">
+            <img data-index="2" src="assets/imgs/N001-3.jpg" alt="">
+          </div>
+        </div>
+
+        <!-- action buttons -->
+        <div class="action-row">
+          <a class="btn outline" href="tel:+556199299999">Ligue Agora</a>
+          <a class="btn outline" href="mailto:contato@imobiliaria.com?subject=Interesse%20no%20im%C3%B3vel">Enviar E-mail</a>
+          <button id="shareBtn" class="btn outline">Compartilhe WhatsApp</button>
+          <button id="favoriteBtn" class="btn outline">Indique este Imóvel</button>
+        </div>
+
+        <!-- values card -->
+        <div class="card values">
+          <h3>Valores</h3>
+          <div class="grid-2">
+            <div><strong>Venda</strong><p>R$ 450.000</p></div>
+            <div><strong>Condomínio</strong><p>Não informado</p></div>
+          </div>
+        </div>
+
+      </section>
+
+      <aside class="contact-column">
+        <div class="agent-card card">
+          <div class="agent-top">
+            <img class="agent-photo" src="assets/imgs/agent-placeholder.jpg" alt="Corretor">
+            <div>
+              <strong>Maria Eduarda Souza</strong>
+              <div class="small">Creci: 41869</div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <input name="name" placeholder="Nome" required>
+            <input name="email" type="email" placeholder="E-mail" required>
+            <input name="phone" placeholder="Celular">
+            <textarea name="message" rows="4">Oi, tudo bem? Gostaria de maiores informações sobre este imóvel. Aguardo retorno, obrigado(a).</textarea>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Enviar Mensagem Agora</button>
+            </div>
+          </form>
+
+          <div class="agent-footer">
+            <a class="call-quick" href="tel:+556199299999">📞 (61) 99299 — Ligue Agora</a>
+          </div>
+        </div>
+
+        <div class="card features">
+          <h4>Principais características</h4>
+          <ul>
+            <li>Piscina</li>
+            <li>Interfone</li>
+            <li>Cozinha planejada</li>
+            <li>+2 itens</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+  <script src="assets/script.js"></script>
+</body>
 </html>
+
