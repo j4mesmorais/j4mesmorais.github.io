@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  width: 100%;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 28px;
+}
+
+/* ===== CARDS (MOBILE) ===== */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ===== IMAGEM ===== */
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.heart {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 6px 8px;
+  color: #e53935;
+  font-size: 14px;
+}
+
+/* ===== CONTEÚDO ===== */
+.content {
+  padding: 16px;
+}
+
+.content h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+/* ===== BOTÕES ===== */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons a {
+  background: #0f6b4a;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: opacity 0.2s ease;
+}
+
+.buttons a:hover {
+  opacity: 0.9;
+}
+
+/* ===================================================
+   TABLET (>= 768px)
+=================================================== */
+@media (min-width: 768px) {
+  .container {
+    padding: 40px 32px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .image img {
+    height: 240px;
+  }
+}
+
+/* ===================================================
+   DESKTOP (>= 1024px)
+=================================================== */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+  }
+
+  .image img {
+    height: 260px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .buttons a {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}
+
+
+/* ======================================
+   HERO / TOPO
+====================================== */
+.hero {
+  background: radial-gradient(circle at center, #111 0%, #000 70%);
+  padding: 48px 16px 32px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-logo {
+  max-width: 160px;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #f2a65a; /* tom laranja elegante */
+  font-weight: 500;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1024px) {
+  .hero {
+    padding: 80px 16px 48px;
+  }
+
+  .hero-logo {
+    max-width: 200px;
+    margin-bottom: 28px;
+  }
+
+  .hero h2 {
+    font-size: 48px;
+  }
+
+  .hero p {
+    font-size: 26px;
+  }
+}
+
+/* ======================================
+   SCRIPT DE VENDAS
+====================================== */
+.sales-script {
+  background: #f6f3f1;
+  border-radius: 16px;
+  margin: 48px 16px;
+  padding: 32px 16px;
+  color: #111;
+}
+
+.sales-script h2 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.sales-script .subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+/* ITEM */
+.script-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+  border-bottom: 1px solid #e0dcdc;
+}
+
+.script-item:last-child {
+  border-bottom: none;
+}
+
+.script-left h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* LISTA */
+.script-list {
+  list-style: none;
+}
+
+.script-list li {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 6px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.script-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #c62828;
+  font-size: 13px;
+}
+
+/* BOTÃO */
+.script-action button {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #111;
+  border-radius: 24px;
+  padding: 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ======================================
+   DESKTOP
+====================================== */
+@media (min-width: 1024px) {
+  .sales-script {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 48px;
+  }
+
+  .sales-script h2 {
+    font-size: 36px;
+  }
+
+  .sales-script .subtitle {
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
+
+  .script-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .script-left {
+    width: 25%;
+  }
+
+  .script-list {
+    width: 50%;
+  }
+
+  .script-action {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .script-action button {
+    width: 140px;
+  }
+}
+
+/* ======================================
+   FOOTER
+====================================== */
+.footer {
+  background: #000;
+  padding: 32px 16px 24px;
+  color: #ccc;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-logo {
+  max-width: 140px;
+  margin-bottom: 20px;
+}
+
+.footer-divider {
+  height: 1px;
+  background: #333;
+  margin: 20px 0;
+}
+
+.footer-text {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.footer-text a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1024px) {
+  .footer {
+    padding: 48px 16px 32px;
+  }
+
+  .footer-logo {
+    max-width: 160px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+  }
+}

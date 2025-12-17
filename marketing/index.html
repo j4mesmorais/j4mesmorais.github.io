@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="pistori">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Driver dos Produtos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <img
+      src="logo-sanvares.png"
+      alt="Pistori & Associados"
+      class="hero-logo"
+    />
+
+    <h2>Suporte Pistori</h2>
+    <p>Material de marketing</p>
+  </div>
+</header>
+
+
+
+
+<section class="container">
+  <!-- h1>Clique e vá direto ao driver dos produtos</h1>
+  <p class="subtitle">Verifique seu produto foco, utilize os materiais</p-->
+
+  <div id="cards" class="cards"></div>
+</section>
+
+<section class="sales-script">
+  <h2>Script de vendas</h2>
+  <p class="subtitle">
+    Utilize mensagens de vendas de acordo com a consciência do seu cliente
+  </p>
+
+  <div class="script-item">
+    <div class="script-left">
+      <h3>Foco na Qualidade<br>de vida</h3>
+    </div>
+
+    <ul class="script-list">
+      <li>Pessoas de Alto padrão</li>
+      <li>Foco na moradia e lazer</li>
+      <li>Leads antigos buscam qualidade de vida</li>
+    </ul>
+
+    <div class="script-action">
+      <button>Ver</button>
+    </div>
+  </div>
+
+  <div class="script-item">
+    <div class="script-left">
+      <h3>Foco em<br>investimento</h3>
+    </div>
+
+    <ul class="script-list">
+      <li>Pessoas de Alto padrão</li>
+      <li>Buscam rentabilidade</li>
+      <li>Investidores</li>
+    </ul>
+
+    <div class="script-action">
+      <button>Ver</button>
+    </div>
+  </div>
+
+  <div class="script-item">
+    <div class="script-left">
+      <h3>Foco na Urgência</h3>
+    </div>
+
+    <ul class="script-list">
+      <li>Já conhece o produto</li>
+      <li>Interessados e parou de responder</li>
+      <li>Follow up</li>
+    </ul>
+
+    <div class="script-action">
+      <button>Ver</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <img
+      src="logo-pistori.png"
+      alt="Pistori Imóveis"
+      class="footer-logo"
+    />
+
+    <div class="footer-divider"></div>
+
+    <p class="footer-text">
+      Copyright © Pistori & Associados -
+      Todos os direitos reservados 
+      <!--a href="#">| Termos de Uso</a> |
+      <a href="#">Políticas de Privacidade</a> |
+      <a href="#">Políticas de Cookies</a-->
+    </p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+  const container = document.getElementById("cards");
+
+  produtos.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      <div class="image">
+        <img src="${item.imagem}" alt="${item.nome}">
+        <span class="heart">❤</span>
+      </div>
+      <div class="content">
+        <h3>${item.nome}</h3>
+        <p>${item.descricao}</p>
+        <div class="buttons">
+          ${item.botoes.map(btn => `
+            <a href="${btn.link}" target="_blank">${btn.texto}</a>
+          `).join("")}
+        </div>
+      </div>
+    `;
+
+    container.appendChild(card);
+  });
+</script>
+
+</body>
+</html>
