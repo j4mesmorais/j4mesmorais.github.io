@@ -7,29 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 </head>
-    <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/service-worker.js')
-                .then(reg => {
-                    console.log("SW registrado:", reg);
-
-                    // Quando SW novo é detectado → modo seguro
-                    reg.onupdatefound = () => {
-                        const newSW = reg.installing;
-                        newSW.onstatechange = () => {
-                            if (newSW.state === 'installed') {
-                                // Se existir SW anterior → nova versão está esperando
-                                if (navigator.serviceWorker.controller) {
-                                    console.log("Nova versão disponível. Será ativada ao fechar as abas.");
-                                }
-                            }
-                        };
-                    };
-                });
-        });
-    }
-    </script>
 
 <body>
 
