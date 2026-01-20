@@ -1,0 +1,650 @@
+[
+  {
+    "id": "1",
+    "quadra": "1",
+    "lote": "01",
+    "status": "reservado",
+    "x": 0.5433138153388943,
+    "y": 0.14489311163895488
+  },
+  {
+    "id": "2",
+    "quadra": "1",
+    "lote": "04",
+    "status": "reservado",
+    "x": 0.5835773585306953,
+    "y": 0.17339667458432304
+  },
+  {
+    "id": "3",
+    "quadra": "1",
+    "lote": "05",
+    "status": "reservado",
+    "x": 0.59602245369907,
+    "y": 0.18368962787015045
+  },
+  {
+    "id": "4",
+    "quadra": "1",
+    "lote": "06",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "5",
+    "quadra": "1",
+    "lote": "07",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "6",
+    "quadra": "1",
+    "lote": "08",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "7",
+    "quadra": "1",
+    "lote": "12",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "8",
+    "quadra": "1",
+    "lote": "13",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "9",
+    "quadra": "2",
+    "lote": "01",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "10",
+    "quadra": "2",
+    "lote": "07",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "11",
+    "quadra": "2",
+    "lote": "08",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "68",
+    "quadra": "2",
+    "lote": "09",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "69",
+    "quadra": "2",
+    "lote": "10",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "70",
+    "quadra": "2",
+    "lote": "11",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "71",
+    "quadra": "2",
+    "lote": "13",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "72",
+    "quadra": "3",
+    "lote": "01",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "73",
+    "quadra": "3",
+    "lote": "03",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "74",
+    "quadra": "3",
+    "lote": "05",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "75",
+    "quadra": "3",
+    "lote": "06",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "76",
+    "quadra": "3",
+    "lote": "07",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "77",
+    "quadra": "3",
+    "lote": "09",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "78",
+    "quadra": "3",
+    "lote": "10",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "79",
+    "quadra": "4",
+    "lote": "03",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "80",
+    "quadra": "4",
+    "lote": "05",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "81",
+    "quadra": "4",
+    "lote": "07",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "54",
+    "quadra": "4",
+    "lote": "08",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "55",
+    "quadra": "4",
+    "lote": "09",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "56",
+    "quadra": "12",
+    "lote": "07",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "57",
+    "quadra": "12",
+    "lote": "08",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "58",
+    "quadra": "12",
+    "lote": "09",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "60",
+    "quadra": "12",
+    "lote": "12",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "59",
+    "quadra": "12",
+    "lote": "17",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "61",
+    "quadra": "13",
+    "lote": "19",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "62",
+    "quadra": "13",
+    "lote": "20",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "63",
+    "quadra": "13",
+    "lote": "25",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "64",
+    "quadra": "13",
+    "lote": "26",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "65",
+    "quadra": "14",
+    "lote": "01",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "66",
+    "quadra": "14",
+    "lote": "02",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "67",
+    "quadra": "16",
+    "lote": "01",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "40",
+    "quadra": "16",
+    "lote": "05",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "41",
+    "quadra": "16",
+    "lote": "06",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "42",
+    "quadra": "16",
+    "lote": "07",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "43",
+    "quadra": "16",
+    "lote": "08",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "44",
+    "quadra": "22",
+    "lote": "01",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "45",
+    "quadra": "22",
+    "lote": "03",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "46",
+    "quadra": "22",
+    "lote": "04",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "47",
+    "quadra": "22",
+    "lote": "05",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "48",
+    "quadra": "22",
+    "lote": "07",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "49",
+    "quadra": "22",
+    "lote": "08",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "50",
+    "quadra": "22",
+    "lote": "11",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "51",
+    "quadra": "22",
+    "lote": "12",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "52",
+    "quadra": "22",
+    "lote": "13",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "26",
+    "quadra": "23",
+    "lote": "09",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "53",
+    "quadra": "23",
+    "lote": "09",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "27",
+    "quadra": "23",
+    "lote": "13",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "28",
+    "quadra": "23",
+    "lote": "14",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "29",
+    "quadra": "24",
+    "lote": "01",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "30",
+    "quadra": "24",
+    "lote": "04",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "31",
+    "quadra": "24",
+    "lote": "05",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "32",
+    "quadra": "24",
+    "lote": "06",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "33",
+    "quadra": "24",
+    "lote": "09",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "34",
+    "quadra": "24",
+    "lote": "10",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "12",
+    "quadra": "24",
+    "lote": "11",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "35",
+    "quadra": "24",
+    "lote": "11",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "13",
+    "quadra": "24",
+    "lote": "12",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "36",
+    "quadra": "24",
+    "lote": "12",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "14",
+    "quadra": "24",
+    "lote": "13",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "37",
+    "quadra": "24",
+    "lote": "13",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "15",
+    "quadra": "24",
+    "lote": "14",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "38",
+    "quadra": "24",
+    "lote": "14",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "16",
+    "quadra": "24",
+    "lote": "15",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "39",
+    "quadra": "24",
+    "lote": "15",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "17",
+    "quadra": "24",
+    "lote": "16",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "18",
+    "quadra": "24",
+    "lote": "17",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "19",
+    "quadra": "24",
+    "lote": "18",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "20",
+    "quadra": "24",
+    "lote": "21",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "21",
+    "quadra": "24",
+    "lote": "22",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "22",
+    "quadra": "25",
+    "lote": "08",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "23",
+    "quadra": "25",
+    "lote": "15",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "24",
+    "quadra": "25",
+    "lote": "17",
+    "status": "disponivel",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "id": "25",
+    "quadra": "25",
+    "lote": "18",
+    "status": "reservado",
+    "x": 0,
+    "y": 0
+  }
+]

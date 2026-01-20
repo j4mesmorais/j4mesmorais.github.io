@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Lotes - Mapa Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Painel de Exportação -->
+    <div id="exportPanel" class="modal">
+        <div class="modal-content">
+            <h2>JSON Exportado</h2>
+            <textarea id="exportText"></textarea>
+            <button onclick="fecharExport()">Fechar</button>
+        </div>
+    </div>
+
+    <!-- Painel de Importação -->
+    <div id="importPanel" class="modal">
+        <div class="modal-content">
+            <h2>Importar JSON</h2>
+            <textarea id="importText" placeholder="Cole aqui o JSON..."></textarea>
+            <button onclick="importarJSON()">Importar</button>
+            <button onclick="fecharImport()">Fechar</button>
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <h2>Cadastro de Lotes</h2>
+
+        <label>Status:</label>
+        <select id="status">
+            <option value="disponivel">Disponível</option>
+            <option value="reservado">Reservado</option>
+            <option value="vendido">Vendido</option>
+        </select>
+
+        <label>Quadra:</label>
+        <input type="number" id="quadra" min="1" value="1">
+
+        <label>Lote:</label>
+        <input type="number" id="lote" min="1" value="1">
+
+        <button id="exportar">Exportar JSON</button>
+        <button id="salvarEdicao" style="display:none; background:#0088ff; color:white; margin-top:10px;">
+            Salvar Alterações
+        </button>
+        <button id="apagarPonto" style="display:none; background:#cc0000; color:white; margin-top:10px;">
+            Apagar Ponto
+        </button>
+        <button id="importar">Importar JSON</button>
+
+        <h3>Lotes Marcados</h3>
+        <div id="lista"></div>
+    </div>
+
+    <div id="mapWrapper">
+        <div id="mapContainer">
+            <img id="mapImage" src="ImpQuintas.png">
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

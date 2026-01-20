@@ -3,7 +3,7 @@
 // Cache baseado nas imagens do data.js
 // ===========================================
 
-const CACHE_NAME = 'pistori-cache-v4';
+const CACHE_NAME = 'pistori-cache-v13';
 
 // Arquivos principais obrigatórios
 const CORE_FILES = [

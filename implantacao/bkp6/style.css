@@ -1,0 +1,92 @@
+body { 
+    margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; 
+    display: flex; flex-direction: column; height: 100vh; overflow: hidden; 
+    background: #ffffff;
+}
+
+#filterStatus {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 400px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+    outline: none;
+    
+    /* REMOVE A "DANÇA" NATIVA */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    /* EVITA RE-RENDERIZAÇÃO DO LAYOUT */
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    
+    /* Ícone customizado opcional para não depender do nativo */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+}
+
+/* Garante que o container do filtro seja rígido */
+#filterBar {
+    height: 70px; /* Altura fixa para não variar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    z-index: 1001;
+    position: relative;
+    contain: layout; /* Isola o componente para não afetar o mapa */
+}
+
+#mapWrapper { 
+    flex-grow: 1; position: relative; overflow: hidden; 
+    touch-action: none; cursor: grab; background: #ffffff;
+}
+
+#mapWrapper:active { cursor: grabbing; }
+
+#mapContainer { 
+    position: absolute; transform-origin: 0 0; line-height: 0;
+    /* Removemos transições aqui para evitar delay no arraste e filtros */
+}
+
+#mapImage { 
+    display: block; max-width: none !important; height: auto !important;
+    -webkit-user-drag: none;
+}
+
+#controls { 
+    position: fixed; bottom: 25px; right: 25px; z-index: 100; 
+    display: flex; flex-direction: column; gap: 12px; 
+}
+
+#controls button { 
+    width: 55px; height: 55px; background: white; 
+    border: 1px solid #eee; border-radius: 50%; font-weight: bold; font-size: 22px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); cursor: pointer;
+}
+
+/* STATUS CORES */
+.ponto {
+    width: 10px; height: 10px; border-radius: 50%; position: absolute;
+    transform: translate(-50%, -50%); z-index: 10;
+}
+.ponto.disponivel { background: #2ecc71; } /* Verde */
+.ponto.reservado { background: #ff9800; }  /* Laranja solicitado */
+.ponto.vendido { background: #e74c3c; }    /* Vermelho */
+
+.modal { 
+    display: none; position: fixed; top: 0; width: 100%; height: 100%; 
+    background: rgba(0,0,0,0.4); z-index: 2000; backdrop-filter: blur(2px);
+}
+.modal-content { 
+    position: absolute; bottom: 0; background: #fff; width: 100%; 
+    padding: 40px 20px; border-radius: 30px 30px 0 0; text-align: center; box-sizing: border-box;
+}
+
+/* Cor do label dentro do modal */
+.status-label-reservado { background: #ff9800 !important; }

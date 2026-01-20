@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mapa de Lotes - Quintas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="filterBar">
+    <select id="filterStatus">
+        <option value="todos">Todos os Status</option>
+        <option value="disponivel">Disponíveis</option>
+        <option value="reservado">Reservados</option>
+        <option value="vendido">Vendidos</option>
+    </select>
+</div>
+
+<div id="mapWrapper">
+    <div id="controls">
+        <button id="zoomIn">+</button>
+        <button id="zoomOut">−</button>
+        <button id="zoomReset">⟲</button>
+    </div>
+    <div id="mapContainer">
+        <img id="mapImage" src="ImpQuintas.png" draggable="false">
+    </div>
+</div>
+
+<div id="modalLote" class="modal">
+    <div class="modal-content">
+        <div id="detalheLote"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

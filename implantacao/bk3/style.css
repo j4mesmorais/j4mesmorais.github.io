@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+#sidebar {
+    width: 270px;
+    background: #f7f7f7;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+    overflow-y: auto;
+}
+
+#mapWrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+}
+
+#mapImage {
+    width: 100%;
+    display: block;
+}
+
+/* ---------------- PONTOS ---------------- */
+
+.ponto {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.ponto.disponivel {
+    background: #00c000; /* VERDE */
+}
+
+.ponto.reservado {
+    background: #ff7a00; /* LARANJA */
+}
+
+.ponto.vendido {
+    background: #ff0000; /* VERMELHO */
+}
+
+/* JSON Area */
+#jsonArea {
+    width: 100%;
+    height: 150px;
+    display: none;
+    margin-top: 10px;
+}
+
+#jsonAplicar {
+    display: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Lista */
+#lista div {
+    padding: 8px;
+    background: white;
+    border: 1px solid #ccc;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+#lista div:hover {
+    background: #eaeaea;
+}

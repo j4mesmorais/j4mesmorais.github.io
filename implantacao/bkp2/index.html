@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Mapa Interativo</title>
+<style>
+body {
+    font-family: Arial;
+    display: flex;
+    gap: 20px;
+}
+#map-container {
+    position: relative;
+}
+#mapa {
+    width: 600px;
+}
+.ponto {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+#painel {
+    width: 300px;
+}
+.itemLista {
+    padding: 6px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.itemLista:hover {
+    background: #eee;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+}
+</style>
+</head>
+<body>
+
+<div id="map-container">
+    <img id="mapa" src="ImpQuintas.png">
+</div>
+
+<div id="painel">
+    <h3>Pontos</h3>
+    <div id="lista"></div>
+
+    <hr>
+    <button onclick="exportarJSON()">Exportar JSON</button>
+    <textarea id="exportArea"></textarea>
+
+    <hr>
+    <textarea id="importArea" placeholder="Cole o JSON aqui"></textarea>
+    <button onclick="importarJSON()">Importar JSON</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

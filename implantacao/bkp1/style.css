@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+#sidebar {
+    width: 300px;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    background: #f7f7f7;
+}
+
+#mapWrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+#mapContainer {
+    position: relative;
+    display: inline-block;
+}
+
+#mapImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+}
+
+.disponivel { background: #00ff00; }
+.reservado  { background: #ffa500; }
+.vendido    { background: #ff0000; }
+
+#lista div {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.dot.selected {
+    border: 3px solid #00f;
+    box-shadow: 0 0 10px #00f;
+    z-index: 10;
+}
+#apagarPonto:hover {
+    background: #ff0000;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    max-width: 95%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal textarea {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
