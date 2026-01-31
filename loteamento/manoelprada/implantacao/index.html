@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mapa Pistori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="filterBar">
+    <div class="header-logo">Pistori</div>
+
+    <div class="filters">
+        <select id="filterStatus">
+            <option value="todos">Todos os Status</option>
+            <option value="disponivel">Disponíveis</option>
+            <option value="reservado">Reservados</option>
+            <option value="vendido">Vendidos</option>
+        </select>
+
+        <select id="filterParcela">
+            <option value="todos">Todas as parcelas</option>
+            <option value="ate300">Até R$ 300</option>
+            <option value="300a350">R$ 300 a R$ 350</option>
+            <option value="acima350">Acima de R$ 350</option>
+        </select>
+    </div>
+</div>
+
+
+<div id="mapWrapper">
+    <div id="controls">
+        <button id="zoomIn">+</button>
+        <button id="zoomOut">−</button>
+        <button id="zoomReset">⟲</button>
+    </div>
+    <div id="mapContainer">
+        <img id="mapImage" src="ImpManoel.jpg" draggable="false">
+    </div>
+</div>
+
+<div id="modalLote" class="modal">
+    <div class="modal-card">
+        <div id="detalheLote"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

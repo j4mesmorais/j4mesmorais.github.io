@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Simulador Solar Loteamento</title>
+<style>
+    body { margin: 0; background: #e5e5e5; font-family: sans-serif; }
+    #ui {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        background: rgba(255,255,255,0.9);
+        border-radius: 10px;
+    }
+    label { display: block; margin-top: 8px; font-size: 14px; }
+
+    /* BÚSSOLA */
+    #bussolaUI {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        text-align: center;
+    }
+    #bussola {
+        width: 140px;
+        height: 140px;
+        border: 3px solid #333;
+        border-radius: 50%;
+        position: relative;
+        background: #fafafa;
+        margin: auto;
+    }
+    .letra {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+    }
+    .letra.n { top: 5px; left: 50%; transform: translateX(-50%); }
+    .letra.s { bottom: 5px; left: 50%; transform: translateX(-50%); }
+    .letra.l { right: 5px; top: 50%; transform: translateY(-50%); }
+    .letra.o { left: 5px; top: 50%; transform: translateY(-50%); }
+
+    #ponteiro {
+        width: 4px;
+        height: 65px;
+        background: red;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform-origin: bottom center;
+        border-radius: 3px;
+    }
+
+    #capturarFrente {
+        margin-top: 10px;
+        padding: 8px 15px;
+        font-size: 14px;
+        border: none;
+        background: #333;
+        color: #fff;
+        border-radius: 6px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- CONTROLES -->
+<div id="ui">
+    <label>Rotação do Terreno (°):
+        <input type="range" id="rotTerreno" min="0" max="360" value="0">
+    </label>
+
+    <label>Hora do Dia:
+        <input type="range" id="hora" min="0" max="23" value="12">
+    </label>
+
+    <label>Mês do Ano:
+        <input type="range" id="mes" min="0" max="11" value="0">
+    </label>
+</div>
+
+<!-- BÚSSOLA -->
+<div id="bussolaUI">
+    <div id="bussola">
+        <div class="letra n">N</div>
+        <div class="letra s">S</div>
+        <div class="letra l">L</div>
+        <div class="letra o">O</div>
+        <div id="ponteiro"></div>
+    </div>
+    <button id="capturarFrente">Capturar Frente</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/suncalc/1.9.0/suncalc.min.js"></script>
+
+<script>
+/* ====================================================================
+   CENA 3D
+==================================================================== */
+
+let LAT = -23.55;
+let LON = -46.63;
+
+// Cena
+const scene = new THREE.Scene();
+
+// Camera
+const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+camera.position.set(25, 25, 25);
+camera.lookAt(0, 0, 0);
+
+// Render
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.shadowMap.enabled = true;
+document.body.appendChild(renderer.domElement);
+
+// Luz Ambiente
+scene.add(new THREE.AmbientLight(0xffffff, 0.4));
+
+/* ====================================================================
+   GRUPO DO TERRENO (Terreno + Casa giram juntos)
+==================================================================== */
+
+const grupoTerreno = new THREE.Group();
+scene.add(grupoTerreno);
+
+// Terreno
+const groundGeo = new THREE.PlaneGeometry(50, 50);
+const groundMat = new THREE.MeshStandardMaterial({ color: 0x88bb88 });
+const ground = new THREE.Mesh(groundGeo, groundMat);
+ground.rotation.x = -Math.PI / 2;
+ground.receiveShadow = true;
+grupoTerreno.add(ground);
+
+// Casa fixa no terreno
+const casaGeo = new THREE.BoxGeometry(10, 4, 8);
+const casaMat = new THREE.MeshStandardMaterial({ color: 0xcccccc });
+const casa = new THREE.Mesh(casaGeo, casaMat);
+casa.castShadow = true;
+grupoTerreno.add(casa);
+
+/* ====================================================================
+   SOL (direcional)
+==================================================================== */
+
+const sol = new THREE.DirectionalLight(0xffffff, 1);
+sol.castShadow = true;
+sol.shadow.camera.top = 20;
+sol.shadow.camera.bottom = -20;
+sol.shadow.camera.left = -20;
+sol.shadow.camera.right = 20;
+
+scene.add(sol);
+
+/* ====================================================================
+   FUNÇÃO PARA ATUALIZAR SOL
+==================================================================== */
+
+function atualizarSol() {
+    const hora = Number(document.getElementById("hora").value);
+    const mes = Number(document.getElementById("mes").value);
+
+    const data = new Date();
+    data.setMonth(mes);
+    data.setHours(hora);
+
+    const pos = SunCalc.getPosition(data, LAT, LON);
+
+    const altitude = pos.altitude;
+    const azimute = pos.azimuth * -1;
+
+    const dist = 50;
+    const x = dist * Math.cos(altitude) * Math.sin(azimute);
+    const y = dist * Math.sin(altitude);
+    const z = dist * Math.cos(altitude) * Math.cos(azimute);
+
+    sol.position.set(x, y, z);
+    sol.target = casa;
+}
+
+/* ====================================================================
+   ROTACIONAR TERRENO
+==================================================================== */
+
+document.getElementById("rotTerreno").addEventListener("input", () => {
+    const ang = Number(document.getElementById("rotTerreno").value);
+    grupoTerreno.rotation.y = THREE.MathUtils.degToRad(ang);
+});
+
+/* ====================================================================
+   BÚSSOLA DO CELULAR + CAPTURAR FRENTE
+==================================================================== */
+
+let headingAtual = 0;
+
+// iPhone
+if (window.DeviceOrientationEvent && typeof DeviceOrientationEvent.requestPermission === "function") {
+    document.body.addEventListener("click", function pedirPerm() {
+        DeviceOrientationEvent.requestPermission().then(response => {
+            if (response === "granted") {
+                window.addEventListener("deviceorientation", atualizarBussola, true);
+            }
+        });
+        document.body.removeEventListener("click", pedirPerm);
+    });
+} else {
+    // Android
+    window.addEventListener("deviceorientationabsolute", atualizarBussola, true);
+    window.addEventListener("deviceorientation", atualizarBussola, true);
+}
+
+function atualizarBussola(event) {
+    let heading;
+
+    if (event.webkitCompassHeading !== undefined) {
+        heading = event.webkitCompassHeading;
+    } else if (event.alpha !== null) {
+        heading = 360 - event.alpha;
+    } else {
+        return;
+    }
+
+    headingAtual = heading;
+    document.getElementById("ponteiro").style.transform = `rotate(${heading}deg)`;
+}
+
+// Captura a frente (Norte) e rotaciona o terreno
+document.getElementById("capturarFrente").addEventListener("click", () => {
+    grupoTerreno.rotation.y = THREE.MathUtils.degToRad(headingAtual);
+    document.getElementById("rotTerreno").value = headingAtual;
+});
+
+/* ====================================================================
+   ANIMAR
+==================================================================== */
+
+function animate() {
+    requestAnimationFrame(animate);
+    renderer.render(scene, camera);
+}
+animate();
+
+atualizarSol();
+
+</script>
+</body>
+</html>

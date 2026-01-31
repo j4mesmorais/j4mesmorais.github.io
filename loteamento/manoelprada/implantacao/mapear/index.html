@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Lotes - Quintas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="sidebar">
+    <h2>Mapa Interativo</h2>
+    <div class="actions">
+        <button id="btnImportar">Importar</button>
+        <button id="btnExportar">Exportar</button>
+    </div>
+
+    <textarea id="jsonArea"></textarea>
+    <button id="jsonAplicar">Aplicar JSON</button>
+
+    <h3>Lotes (Ordenados)</h3>
+    <div id="lista"></div>
+</div>
+
+<div id="mapWrapper">
+    <div id="controls">
+        <button id="zoomIn">+</button>
+        <button id="zoomOut">-</button>
+        <button id="zoomReset">1:1</button>
+    </div>
+    <div id="mapContainer">
+        <img id="mapImage" src="ImpManoel1.jpg" draggable="false">
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

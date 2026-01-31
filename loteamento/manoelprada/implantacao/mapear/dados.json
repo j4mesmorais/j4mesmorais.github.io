@@ -1,0 +1,254 @@
+[
+  {
+    "id": "1769638362040",
+    "quadra": "1",
+    "lote": "9",
+    "status": "disponivel",
+    "x": 0.6276693379981517,
+    "y": 0.7600912412279534,
+    "dados_financeiros": {
+      "entrada": 8262.00,
+      "valor_parcela_300x": 296.46,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Cecília Meireles",
+      "frente": 12,
+      "fundo": 12,
+      "esquerda": 25,
+      "direita": 25,
+      "area_m2": 300
+    }
+  },
+  {
+    "id": "1769638372327",
+    "quadra": "1",
+    "lote": "25",
+    "status": "disponivel",
+    "x": 0.21541128233243753,
+    "y": 0.768643122879933,
+    "dados_financeiros": {
+      "entrada": 8309.92,
+      "valor_parcela_300x": 298.18,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Cecília Meireles",
+      "frente": 14.1,
+      "fundo": 14.1,
+      "esquerda": 21.4,
+      "direita": 21.4,
+      "area_m2": 301.74
+    }
+  },
+  {
+    "id": "1769638389068",
+    "quadra": "2",
+    "lote": "3",
+    "status": "disponivel",
+    "x": 0.7423467528372782,
+    "y": 0.6667046935883353,
+    "dados_financeiros": {
+      "entrada": 8262.00,
+      "valor_parcela_300x": 296.46,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Monteiro Lobato",
+      "frente": 12,
+      "fundo": 12,
+      "esquerda": 25,
+      "direita": 25,
+      "area_m2": 300
+    }
+  },
+  {
+    "id": "1769638420513",
+    "quadra": "2",
+    "lote": "16",
+    "status": "disponivel",
+    "x": 0.4544435383677412,
+    "y": 0.6690992204508897,
+    "dados_financeiros": {
+      "entrada": 8262.00,
+      "valor_parcela_300x": 296.46,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Monteiro Lobato",
+      "frente": 12,
+      "fundo": 12,
+      "esquerda": 25,
+      "direita": 25,
+      "area_m2": 300
+    }
+  },
+  {
+    "id": "1769638431382",
+    "quadra": "2",
+    "lote": "18",
+    "status": "disponivel",
+    "x": 0.40750805634497633,
+    "y": 0.6694412957169688,
+    "dados_financeiros": {
+      "entrada": 8262.00,
+      "valor_parcela_300x": 296.46,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Monteiro Lobato",
+      "frente": 12,
+      "fundo": 12,
+      "esquerda": 25,
+      "direita": 25,
+      "area_m2": 300
+    }
+  },
+  {
+    "id": "1769638471712",
+    "quadra": "2",
+    "lote": "20",
+    "status": "disponivel",
+    "x": 0.35960483242483493,
+    "y": 0.6694412957169688,
+    "dados_financeiros": {
+      "entrada": 8262.00,
+      "valor_parcela_300x": 296.46,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Monteiro Lobato",
+      "frente": 12,
+      "fundo": 12,
+      "esquerda": 25,
+      "direita": 25,
+      "area_m2": 300
+    }
+  },
+  {
+    "id": "1769638478587",
+    "quadra": "2",
+    "lote": "22",
+    "status": "disponivel",
+    "x": 0.3117016085046935,
+    "y": 0.6711516720473647,
+    "dados_financeiros": {
+      "entrada": 8262.00,
+      "valor_parcela_300x": 296.46,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Monteiro Lobato",
+      "frente": 12,
+      "fundo": 12,
+      "esquerda": 25,
+      "direita": 25,
+      "area_m2": 300
+    }
+  },
+  {
+    "id": "1769638491219",
+    "quadra": "2",
+    "lote": "27",
+    "status": "disponivel",
+    "x": 0.18105644497556841,
+    "y": 0.6933865643425119,
+    "dados_financeiros": {
+      "entrada": 8281.28,
+      "valor_parcela_300x": 297.15,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua José de Alencar",
+      "frente": 12.1,
+      "fundo": 12.1,
+      "esquerda": 25,
+      "direita": 24.7,
+      "area_m2": 300.7
+    }
+  },
+  {
+    "id": "1769638670102",
+    "quadra": "6",
+    "lote": "29",
+    "status": "disponivel",
+    "x": 0.20912095999948968,
+    "y": 0.4491448243619724,
+    "dados_financeiros": {
+      "entrada": 8331.95,
+      "valor_parcela_300x": 298.97,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Aluísio de Azevedo",
+      "frente": 9.83,
+      "fundo": 12.11,
+      "esquerda": 23.71,
+      "direita": 18.19,
+      "area_m2": 302.54
+    }
+  },
+  {
+    "id": "1769638681969",
+    "quadra": "6",
+    "lote": "44",
+    "status": "disponivel",
+    "x": 0.5478306240812979,
+    "y": 0.44367162010470546,
+    "dados_financeiros": {
+      "entrada": 11058.14,
+      "valor_parcela_300x": 396.79,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Aluísio de Azevedo",
+      "frente": 12.01,
+      "fundo": 12,
+      "esquerda": 33.74,
+      "direita": 33.18,
+      "area_m2": 401.53
+    }
+  },
+  {
+    "id": "1769638694273",
+    "quadra": "7",
+    "lote": "30",
+    "status": "disponivel",
+    "x": 0.2850887063268371,
+    "y": 0.3591790293831463,
+    "dados_financeiros": {
+      "entrada": 8741.75,
+      "valor_parcela_300x": 313.67,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Manoel Bandeira",
+      "frente": 12.01,
+      "fundo": 12,
+      "esquerda": 26.68,
+      "direita": 26.23,
+      "area_m2": 317.42
+    }
+  },
+  {
+    "id": "1769638704214",
+    "quadra": "7",
+    "lote": "41",
+    "status": "disponivel",
+    "x": 0.5284757935170508,
+    "y": 0.3482326208686123,
+    "dados_financeiros": {
+      "entrada": 10374.04,
+      "valor_parcela_300x": 372.25,
+      "valor_m2": 324
+    },
+    "dados_geometricos": {
+      "confrontante": "Rua Manoel Bandeira",
+      "frente": 12.01,
+      "fundo": 12,
+      "esquerda": 31.62,
+      "direita": 31.17,
+      "area_m2": 376.69
+    }
+  }
+]
