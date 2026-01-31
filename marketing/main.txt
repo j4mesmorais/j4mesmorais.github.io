@@ -10,7 +10,7 @@ https://j4mesmorais.github.io/marketing/
 /mnt/d/Users/j4mes/Documents/2025/youtube/BaixarVideos
 
 git add .
-git commit -m "Inclusão do Cache"
+git commit -m "Inclusão de Entrada"
 git push origin main
 
 
