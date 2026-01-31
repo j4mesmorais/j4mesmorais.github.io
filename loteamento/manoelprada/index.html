@@ -571,6 +571,7 @@ function abrirDetalhes(lote) {
     <p>📏 Dimensões: ${lote.dados_geometricos.frente} x ${lote.dados_geometricos.fundo} m</p>
     <p>📍 ${lote.dados_geometricos.confrontante}</p>
     <p>💰 Parcela: R$ ${lote.dados_financeiros.valor_parcela_300x.toLocaleString('pt-BR')}</p>
+    <p>💰 Entrada: R$ ${lote.dados_financeiros.entrada.toLocaleString('pt-BR')}</p>    
     <p>📌 Status: ${lote.status}</p>
   `;
 
