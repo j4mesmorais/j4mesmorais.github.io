@@ -1,0 +1,5933 @@
+[
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 01",
+    "area": 430.3,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1326
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 02",
+    "area": 442.8,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1327
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 03",
+    "area": 442.8,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1328
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 04",
+    "area": 430.3,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1329
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1330
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1331
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1332
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1333
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1334
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 10",
+    "area": 430.31,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1335
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 11",
+    "area": 442.81,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1336
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 12",
+    "area": 442.81,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1337
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 13",
+    "area": 430.31,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1338
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1339
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1340
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1341
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1342
+  },
+  {
+    "etapa": "1",
+    "quadra": "02",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1343
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 01",
+    "area": 431.06,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1344
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 02",
+    "area": 443.56,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1345
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 03",
+    "area": 431.06,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1346
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 04",
+    "area": 432.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1347
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 05",
+    "area": 432.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1348
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 06",
+    "area": 432.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1349
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 07",
+    "area": 432.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1350
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 08",
+    "area": 400.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1351
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 09",
+    "area": 397.36,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1352
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 10",
+    "area": 399.99,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1353
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 11",
+    "area": 411.28,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1354
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 12",
+    "area": 432.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1355
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 13",
+    "area": 432.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1356
+  },
+  {
+    "etapa": "1",
+    "quadra": "03",
+    "lote": "Lote 14",
+    "area": 432.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1357
+  },
+  {
+    "etapa": "1",
+    "quadra": "04",
+    "lote": "Lote 01",
+    "area": 561.68,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1358
+  },
+  {
+    "etapa": "1",
+    "quadra": "04",
+    "lote": "Lote 02",
+    "area": 566.69,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1359
+  },
+  {
+    "etapa": "1",
+    "quadra": "04",
+    "lote": "Lote 03",
+    "area": 1210.48,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1360
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1361
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1362
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1363
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1364
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1365
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1366
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1367
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1368
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1369
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1370
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1371
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1372
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1373
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1374
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1375
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1376
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1377
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 18",
+    "area": 499.9,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1378
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 19",
+    "area": 512.4,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1379
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 20",
+    "area": 512.4,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1380
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 21",
+    "area": 499.9,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1381
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1382
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1383
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1384
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1385
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1386
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1387
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1388
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1389
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1390
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1391
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "reservado",
+    "valor": 0,
+    "id": 1392
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "reservado",
+    "valor": 0,
+    "id": 1393
+  },
+  {
+    "etapa": "1",
+    "quadra": "05",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1394
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1395
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1396
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1397
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1398
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1399
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1400
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1401
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1402
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1403
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1404
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1405
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1406
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1407
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1408
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1409
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1410
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1411
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 18",
+    "area": 499.9,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1412
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 19",
+    "area": 512.4,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1413
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 20",
+    "area": 454.79,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1414
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1415
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1416
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1417
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1418
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1419
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1420
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1421
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1422
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1423
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1424
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1425
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1426
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1427
+  },
+  {
+    "etapa": "1",
+    "quadra": "06",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1428
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 01",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1429
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 02",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1430
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1431
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 04",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1432
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 05",
+    "area": 450.1,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1433
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1434
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1435
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1436
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1437
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1438
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1439
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1440
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1441
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1442
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1443
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1444
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1445
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1446
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1447
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 20",
+    "area": 454.78,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1448
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 21",
+    "area": 512.4,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1449
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 22",
+    "area": 499.9,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1450
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1451
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1452
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1453
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1454
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1455
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1456
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1457
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1458
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1459
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1460
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1461
+  },
+  {
+    "etapa": "1",
+    "quadra": "07",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1462
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1463
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1464
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1465
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1466
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1467
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1468
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1469
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1470
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1471
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1472
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1473
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1474
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1475
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1476
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1477
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1478
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1479
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1480
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 19",
+    "area": 486.34,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1481
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 20",
+    "area": 498.31,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1482
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 21",
+    "area": 498.15,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1483
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1484
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1485
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1486
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1487
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1488
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1489
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1490
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1491
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1492
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1493
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1494
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1495
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1496
+  },
+  {
+    "etapa": "1",
+    "quadra": "08",
+    "lote": "Lote 35",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1497
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 01",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1498
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 02",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1499
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 03",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1500
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 04",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1501
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1502
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1503
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1504
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1505
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1506
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1507
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 11",
+    "area": 485.02,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1508
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 12",
+    "area": 474.68,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1509
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 13",
+    "area": 532.27,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1510
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1511
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1512
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1513
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1514
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1515
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1516
+  },
+  {
+    "etapa": "1",
+    "quadra": "09",
+    "lote": "Lote 20",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1517
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 01",
+    "area": 575.3,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1518
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 02",
+    "area": 561.99,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1519
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 03",
+    "area": 448.41,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1520
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 04",
+    "area": 449.41,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1521
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 05",
+    "area": 450.41,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1522
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 06",
+    "area": 451.4,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1523
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 07",
+    "area": 452.4,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1524
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 08",
+    "area": 453.4,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1525
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 09",
+    "area": 490.14,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1526
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 10",
+    "area": 625.19,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1527
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 11",
+    "area": 71791.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1528
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 12",
+    "area": 705.74,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1529
+  },
+  {
+    "etapa": "1",
+    "quadra": "10",
+    "lote": "Lote 13",
+    "area": 1117.49,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1530
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1531
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1532
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1533
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1534
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1535
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1536
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1537
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1538
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1539
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1540
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1541
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1542
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1543
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 14",
+    "area": 444.5,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1544
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 15",
+    "area": 462.16,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1545
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 16",
+    "area": 467.33,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1546
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 17",
+    "area": 460.01,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1547
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1548
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1549
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 20",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1550
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1551
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1552
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1553
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1554
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1555
+  },
+  {
+    "etapa": "1",
+    "quadra": "12",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1556
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1557
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1558
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1559
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1560
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1561
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1562
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1563
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1564
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1565
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1566
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1567
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1568
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1569
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 14",
+    "area": 469.31,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1570
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 15",
+    "area": 486.98,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1571
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 16",
+    "area": 492.15,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1572
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 17",
+    "area": 484.82,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1573
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1574
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1575
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 20",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1576
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1577
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1578
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1579
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1580
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1581
+  },
+  {
+    "etapa": "1",
+    "quadra": "13",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1582
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1583
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1584
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1585
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1586
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1587
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1588
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1589
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1590
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1591
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1592
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1593
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1594
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1595
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1596
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1597
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1598
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1599
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1600
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 19",
+    "area": 506.41,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1601
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 20",
+    "area": 506.42,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1602
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 21",
+    "area": 506.42,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1603
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1604
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1605
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1606
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1607
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1608
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1609
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1610
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1611
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1612
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1613
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1614
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1615
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1616
+  },
+  {
+    "etapa": "1",
+    "quadra": "14",
+    "lote": "Lote 35",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1617
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1618
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1619
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1620
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1621
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1622
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1623
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1624
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1625
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1626
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1627
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1628
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1629
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1630
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1631
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1632
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1633
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1634
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 18",
+    "area": 497.89,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1635
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 19",
+    "area": 497.89,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1636
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 20",
+    "area": 497.89,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1637
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 21",
+    "area": 497.89,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1638
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1639
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1640
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1641
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1642
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1643
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1644
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1645
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1646
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1647
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1648
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1649
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1650
+  },
+  {
+    "etapa": "1",
+    "quadra": "15",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1651
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 01",
+    "area": 489.04,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1652
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 02",
+    "area": 489.04,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1653
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 03",
+    "area": 492.05,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1654
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 04",
+    "area": 486.03,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1655
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 05",
+    "area": 489.04,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1656
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 06",
+    "area": 489.03,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1657
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 07",
+    "area": 740.62,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1658
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 08",
+    "area": 744.15,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1659
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 09",
+    "area": 735.85,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1660
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 10",
+    "area": 727.55,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1661
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 11",
+    "area": 719.24,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1662
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 12",
+    "area": 710.94,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1663
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 13",
+    "area": 702.64,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1664
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 14",
+    "area": 694.33,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1665
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 15",
+    "area": 686.03,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1666
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 16",
+    "area": 677.73,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1667
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 17",
+    "area": 669.43,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1668
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 18",
+    "area": 553.32,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1669
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 19",
+    "area": 553.31,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1670
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 20",
+    "area": 553.31,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1671
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 21",
+    "area": 553.31,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1672
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 22",
+    "area": 553.31,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1673
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 23",
+    "area": 698.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1674
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 24",
+    "area": 702.59,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1675
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 25",
+    "area": 707.18,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1676
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 26",
+    "area": 711.77,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1677
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 27",
+    "area": 716.35,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1678
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 28",
+    "area": 720.94,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1679
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 29",
+    "area": 725.53,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1680
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 30",
+    "area": 730.11,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1681
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 31",
+    "area": 734.7,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1682
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 32",
+    "area": 739.29,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1683
+  },
+  {
+    "etapa": "1",
+    "quadra": "16",
+    "lote": "Lote 33",
+    "area": 803.04,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1684
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 01",
+    "area": 452.69,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1685
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 02",
+    "area": 470.35,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1686
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 03",
+    "area": 475.52,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1687
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 04",
+    "area": 468.2,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1688
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1689
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1690
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "reservado",
+    "valor": 0,
+    "id": 1691
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1692
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1693
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1694
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1695
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1696
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1697
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1698
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1699
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1700
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1701
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1702
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1703
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 20",
+    "area": 474.61,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1704
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 21",
+    "area": 474.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1705
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 22",
+    "area": 474.6,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1706
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1707
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1708
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1709
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1710
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1711
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1712
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1713
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1714
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1715
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1716
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1717
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1718
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 35",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1719
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 36",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1720
+  },
+  {
+    "etapa": "1",
+    "quadra": "18",
+    "lote": "Lote 37",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1721
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 01",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1722
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 02",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1723
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 03",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1724
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 04",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1725
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1726
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "reservado",
+    "valor": 0,
+    "id": 1727
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1728
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1729
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1730
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1731
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1732
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1733
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1734
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1735
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1736
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 16",
+    "area": 455.8,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1737
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 17",
+    "area": 455.8,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1738
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 18",
+    "area": 455.81,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1739
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1740
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 20",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1741
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1742
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1743
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1744
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1745
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1746
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1747
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1748
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1749
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1750
+  },
+  {
+    "etapa": "1",
+    "quadra": "19",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1751
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 01",
+    "area": 463.76,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1752
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 02",
+    "area": 463.75,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1753
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 03",
+    "area": 490.27,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1754
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 04",
+    "area": 534.16,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1755
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 05",
+    "area": 571.9,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1756
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 06",
+    "area": 576.96,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1757
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 07",
+    "area": 577.23,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1758
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 08",
+    "area": 577.49,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1759
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 09",
+    "area": 577.75,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1760
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 10",
+    "area": 578.02,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1761
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 11",
+    "area": 578.28,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1762
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 12",
+    "area": 571.07,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1763
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 13",
+    "area": 483.44,
+    "situacao": "disponivel",
+    "valor": 0,
+    "id": 1764
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "desconhecido",
+    "valor": 0,
+    "id": 1765
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 15",
+    "area": 500.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1766
+  },
+  {
+    "etapa": "1",
+    "quadra": "20",
+    "lote": "Lote 16",
+    "area": 534.96,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1767
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 01",
+    "area": 776.94,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1768
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 02",
+    "area": 599.5,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1769
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 03",
+    "area": 581.14,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1770
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 04",
+    "area": 562.79,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1771
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 05",
+    "area": 544.44,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1772
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 06",
+    "area": 526.09,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1773
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 07",
+    "area": 507.74,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1774
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 08",
+    "area": 489.4,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1775
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 09",
+    "area": 471.42,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1776
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 10",
+    "area": 516.2,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1777
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 11",
+    "area": 652.68,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1778
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 12",
+    "area": 789.96,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1779
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 13",
+    "area": 866.12,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1780
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 14",
+    "area": 878.72,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1781
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 15",
+    "area": 891.32,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1782
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 16",
+    "area": 903.91,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1783
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 17",
+    "area": 916.51,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1784
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 18",
+    "area": 928.88,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1785
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 19",
+    "area": 895.45,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1786
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 20",
+    "area": 827.37,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1787
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 21",
+    "area": 759.29,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1788
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 22",
+    "area": 691.21,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1789
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 23",
+    "area": 623.72,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1790
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 24",
+    "area": 597.75,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1791
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 25",
+    "area": 597.22,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1792
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 26",
+    "area": 596.7,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1793
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 27",
+    "area": 596.18,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1794
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 28",
+    "area": 595.66,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1795
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 29",
+    "area": 595.13,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1796
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 30",
+    "area": 594.61,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1797
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 31",
+    "area": 594.09,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1798
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 32",
+    "area": 593.57,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1799
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 33",
+    "area": 585.23,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1800
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 34",
+    "area": 557.3,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1801
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 35",
+    "area": 528.43,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1802
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 36",
+    "area": 499.57,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1803
+  },
+  {
+    "etapa": "2",
+    "quadra": "21",
+    "lote": "Lote 37",
+    "area": 567.63,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1804
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1805
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1806
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1807
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1808
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1809
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1810
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1811
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1812
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1813
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1814
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1815
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1816
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1817
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1818
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1819
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1820
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1821
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 18",
+    "area": 462.2,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1822
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 19",
+    "area": 471.96,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1823
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 20",
+    "area": 467.23,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1824
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1825
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1826
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1827
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1828
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1829
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1830
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1831
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1832
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1833
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1834
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1835
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1836
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1837
+  },
+  {
+    "etapa": "2",
+    "quadra": "22",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1838
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1839
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1840
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1841
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1842
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1843
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1844
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1845
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1846
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1847
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1848
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1849
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1850
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1851
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1852
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1853
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1854
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 17",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1855
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 18",
+    "area": 488.33,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1856
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 19",
+    "area": 488.34,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1857
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 20",
+    "area": 488.33,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1858
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 21",
+    "area": 488.33,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1859
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1860
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1861
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1862
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1863
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1864
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1865
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1866
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1867
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 30",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1868
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 31",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1869
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 32",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1870
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 33",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1871
+  },
+  {
+    "etapa": "2",
+    "quadra": "23",
+    "lote": "Lote 34",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1872
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1873
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1874
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1875
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1876
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1877
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1878
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1879
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1880
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1881
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1882
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1883
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1884
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1885
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1886
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 15",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1887
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 16",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1888
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 17",
+    "area": 548.11,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1889
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 18",
+    "area": 381.05,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1890
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 19",
+    "area": 441.82,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1891
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 20",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1892
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1893
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1894
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1895
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1896
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1897
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1898
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1899
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1900
+  },
+  {
+    "etapa": "2",
+    "quadra": "24",
+    "lote": "Lote 29",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1901
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 01",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1902
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 02",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1903
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 03",
+    "area": 462.6,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1904
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 04",
+    "area": 450.1,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1905
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1906
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1907
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1908
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1909
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1910
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1911
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1912
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1913
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1914
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1915
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 15",
+    "area": 471.21,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1916
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 16",
+    "area": 471.23,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1917
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 17",
+    "area": 471.23,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1918
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1919
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1920
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 20",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1921
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1922
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1923
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1924
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1925
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1926
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1927
+  },
+  {
+    "etapa": "2",
+    "quadra": "25",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1928
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 01",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1929
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 02",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1930
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 03",
+    "area": 450.01,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1931
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 04",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1932
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 05",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1933
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 06",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1934
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 07",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1935
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 08",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1936
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 09",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1937
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 10",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1938
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 11",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1939
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 12",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1940
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 13",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1941
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 14",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1942
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 15",
+    "area": 464.13,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1943
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 16",
+    "area": 464.12,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1944
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 17",
+    "area": 464.13,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1945
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 18",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1946
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 19",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1947
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 20",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1948
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 21",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1949
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 22",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1950
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 23",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1951
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 24",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1952
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 25",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1953
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 26",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1954
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 27",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1955
+  },
+  {
+    "etapa": "2",
+    "quadra": "26",
+    "lote": "Lote 28",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1956
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 01",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1957
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 02",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1958
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 03",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1959
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 04",
+    "area": 450.0,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1960
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 05",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1961
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 06",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1962
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 07",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1963
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 08",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1964
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 09",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1965
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 10",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1966
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 11",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1967
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 12",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1968
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 13",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1969
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 14",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1970
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 15",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1971
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 16",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1972
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 17",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1973
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 18",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1974
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 19",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1975
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 20",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1976
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 21",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1977
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 22",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1978
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 23",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1979
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 24",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1980
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 25",
+    "area": 841.86,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1981
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 26",
+    "area": 788.17,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1982
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 27",
+    "area": 595.2,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1983
+  },
+  {
+    "etapa": "2",
+    "quadra": "27",
+    "lote": "Lote 28",
+    "area": 612.52,
+    "situacao": "vendido",
+    "valor": 0,
+    "id": 1984
+  }
+]

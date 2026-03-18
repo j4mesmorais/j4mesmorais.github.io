@@ -1,0 +1,22 @@
+{
+  "url": "https://torreforte.cvcrm.com.br/api/get/cv-login?cat=corretor",
+  "status": 200,
+  "data": {
+    "banner": true,
+    "titulo": "",
+    "descricao": "",
+    "botao": "",
+    "link": "",
+    "imagem": false,
+    "path": null,
+    "imgmobile": false,
+    "txtmobile": "",
+    "bgbannermobile": "#f6f7f8",
+    "cortxtmobile": "",
+    "corbotao": "#a8a8a8",
+    "linkgeral": "https://cvcrm.link/funcionalidades-apps-modal",
+    "bannergeneral": "https://cvcrm.com.br/wp-content/uploads/2026/01/cvcrm_comunicador.jpg",
+    "linkpaineis": "https://ajuda.cvcrm.com.br/support/solutions/articles/157000357301-administracão-de-leads-painel-do-gestor",
+    "bannerpaineis": "https://cvcrm.com.br/wp-content/uploads/2026/03/Tela-de-Login-Gestor-1-3.jpg"
+  }
+}

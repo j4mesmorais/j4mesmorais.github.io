@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Imóveis</title>
   <link rel="stylesheet" href="style.css" />
+  <script>
+    // Forçar a remoção de Service Workers que podem estar travando o cache
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
 </head>
+
 <body>
 
-<header class="topbar">
-  <img src="logo.png" alt="Pistori" class="logo">
-  <nav>
-    <!--a href="#">Venda</a>
+  <header class="topbar">
+    <img src="logo.png" alt="Pistori" class="logo">
+    <nav>
+      <!--a href="#">Venda</a>
     <a href="#">Aluguel</a-->
-    <button class="menu">☰</button>
-  </nav>
-</header>
+      <button class="menu">☰</button>
+    </nav>
+  </header>
 
-<main class="container">
-<section id="lista-imoveis" class="imoveis"></section>
+  <main class="container">
+    <section id="lista-imoveis" class="imoveis"></section>
 
-<section id="detalhe-imovel" class="detalhe-container hidden"></section>
-</main>
+    <section id="detalhe-imovel" class="detalhe-container hidden"></section>
+  </main>
 
-<script src="data.js"></script>
-<script>
-const lista = document.getElementById('lista-imoveis');
-const detalhe = document.getElementById('detalhe-imovel');
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script type="module">
+    // Carregar serviço com cache bust
+    const { default: ImoveisService } = await import('../dados/imoveis.js?v=' + Date.now());
 
-imoveis.forEach(imovel => {
-  const card = document.createElement('article');
-  card.className = 'card';
+    const lista = document.getElementById('lista-imoveis');
+    const detalhe = document.getElementById('detalhe-imovel');
 
-  card.innerHTML = `
+    // 1. Buscar dados do Supabase (apenas ativos)
+    const rawData = await ImoveisService.getFilter({ ativo: true });
+
+    // 2. Mapear para o formato que o HTML espera
+    const imoveis = rawData.map(p => ({
+      id: p.id,
+      titulo: p.titulo,
+      tipo: p.subtitulo,
+      resumo: p.resumo,
+      preco: p.preco,
+      imagem: p.imagem_url,
+      htmlDetalhes: p.html_detalhes || '',
+      selo: p.selo || '',
+      seloClasse: p.selo_classe || ''
+    }));
+
+    imoveis.forEach(imovel => {
+      const card = document.createElement('article');
+      card.className = 'card';
+
+      card.innerHTML = `
     <div class="thumb">
       <img src="${imovel.imagem}">
       ${imovel.selo ? `<span class="badge ${imovel.seloClasse}">${imovel.selo}</span>` : ''}
@@ -46,30 +80,31 @@ imoveis.forEach(imovel => {
     </div>
   `;
 
-  card.onclick = () => abrirDetalhe(imovel);
+      card.onclick = () => abrirDetalhe(imovel);
 
-  lista.appendChild(card);
-});
+      lista.appendChild(card);
+    });
 
-function abrirDetalhe(imovel) {
-  lista.classList.add('hidden');
-  detalhe.classList.remove('hidden');
+    window.abrirDetalhe = function (imovel) {
+      lista.classList.add('hidden');
+      detalhe.classList.remove('hidden');
 
-  detalhe.innerHTML = `
+      detalhe.innerHTML = `
     <header class="detalhe-topo">
       <button onclick="fecharDetalhe()">← Voltar</button>
     </header>
 
     ${imovel.htmlDetalhes}
   `;
-}
+    }
 
-function fecharDetalhe() {
-  detalhe.classList.add('hidden');
-  lista.classList.remove('hidden');
-}
+    window.fecharDetalhe = function () {
+      detalhe.classList.add('hidden');
+      lista.classList.remove('hidden');
+    }
 
-</script>
+  </script>
 
 </body>
+
 </html>

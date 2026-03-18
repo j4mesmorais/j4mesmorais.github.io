@@ -14,15 +14,42 @@ filterStatus.addEventListener('change', () => {
     });
 });
 
-// CARREGAR DADOS
-fetch('json.json').then(res => res.json()).then(data => {
+import ImplantacoesService from '../dados/implantacoes.js';
+
+// CARREGAR DADOS DO SUPABASE
+const propertyId = 3; // Quintas do Cerrado
+
+async function loadData() {
+    console.log("Buscando dados no Supabase para empreendimento ID:", propertyId);
+    const data = await ImplantacoesService.getByImovelId(propertyId);
+
+    if (!data) {
+        console.error("Nenhum dado encontrado no Supabase.");
+        return;
+    }
+
+    console.log(`Sucesso! ${data.length} lotes carregados.`);
+    console.log("Primeiro lote para teste:", data[0]);
+
     const init = () => {
-        const w = img.offsetWidth;
-        const h = img.offsetHeight;
+        const w = img.offsetWidth || img.naturalWidth;
+        const h = img.offsetHeight || img.naturalHeight;
+
+        if (w === 0 || h === 0) {
+            console.warn("Imagem sem dimensões. Tentando novamente em 500ms...");
+            setTimeout(init, 500);
+            return;
+        }
+
+        // Limpar pontos antigos antes de renderizar (evita duplicatas no HMR/cache)
+        container.querySelectorAll('.ponto').forEach(p => p.remove());
+
         data.forEach(p => {
             const div = document.createElement("div");
-            div.className = `ponto ${p.status}`;
-            div.setAttribute('data-status', p.status);
+            // Normalizar status para garantir que o CSS aplique a cor (sempre minúsculo)
+            const statusLower = p.status.toLowerCase();
+            div.className = `ponto ${statusLower}`;
+            div.setAttribute('data-status', statusLower);
             div.style.left = (p.x * w) + "px";
             div.style.top = (p.y * h) + "px";
             div.onclick = (e) => { e.stopPropagation(); mostrarDetalhes(p); };
@@ -30,8 +57,11 @@ fetch('json.json').then(res => res.json()).then(data => {
         });
         updateTransform();
     };
+
     if (img.complete) init(); else img.onload = init;
-});
+}
+
+loadData();
 
 function updateTransform() {
     scale = Math.min(Math.max(0.1, scale), 4);
@@ -77,7 +107,7 @@ function mostrarDetalhes(p) {
     const modal = document.getElementById("modalLote");
     const info = document.getElementById("detalheLote");
     const cores = { disponivel: '#2ecc71', reservado: '#ff9800', vendido: '#e74c3c' };
-    
+
     info.innerHTML = `
         <h3 style="margin: 0 0 10px 0; color: #333;">Q${p.quadra} - Lote ${p.lote}</h3>
         <span style="background:${cores[p.status]}; color:#fff; padding:5px 15px; border-radius:15px; font-size:12px; font-weight:bold;">
@@ -88,4 +118,4 @@ function mostrarDetalhes(p) {
     modal.style.display = "flex";
 }
 
-window.onclick = (e) => { if(e.target.id === 'modalLote') e.target.style.display = 'none'; };
+window.onclick = (e) => { if (e.target.id === 'modalLote') e.target.style.display = 'none'; };

@@ -1,292 +1,1041 @@
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Pistori & Associados | Alto Padrão na Grande Goiânia</title>
-<meta name="description" content="Especialistas em lançamentos de condomínios de chácaras e empreendimentos de alto padrão na Grande Goiânia.">
+  <title>Pistori & Associados | Alto Padrão na Grande Goiânia</title>
+  <meta name="description"
+    content="Especialistas em lançamentos de condomínios de chácaras e empreendimentos de alto padrão na Grande Goiânia.">
 
-<!-- Open Graph (WhatsApp / Facebook / LinkedIn) -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.imobiliariapistori.com.br/">
-<meta property="og:title" content="Pistori & Associados | Alto Padrão na Grande Goiânia">
-<meta property="og:description" content="Lançamentos exclusivos de condomínios de chácaras e empreendimentos premium na Grande Goiânia.">
-<meta property="og:image" content="https://www.imobiliariapistori.com.br/assents/topo21.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="pt_BR">
+  <!-- Open Graph (WhatsApp / Facebook / LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.imobiliariapistori.com.br/">
+  <meta property="og:title" content="Pistori & Associados | Alto Padrão na Grande Goiânia">
+  <meta property="og:description"
+    content="Lançamentos exclusivos de condomínios de chácaras e empreendimentos premium na Grande Goiânia.">
+  <meta property="og:image" content="https://www.imobiliariapistori.com.br/assents/topo21.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pistori & Associados | Alto Padrão na Grande Goiânia">
-<meta name="twitter:description" content="Lançamentos exclusivos de condomínios premium na Grande Goiânia.">
-<meta name="twitter:image" content="https://www.imobiliariapistori.com.br/assents/topo21.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pistori & Associados | Alto Padrão na Grande Goiânia">
+  <meta name="twitter:description" content="Lançamentos exclusivos de condomínios premium na Grande Goiânia.">
+  <meta name="twitter:image" content="https://www.imobiliariapistori.com.br/assents/topo21.png">
 
-<!-- Favicon (opcional mas recomendado) -->
-<link rel="icon" type="image/png" href="https://www.imobiliariapistori.com.br/assents/logo.png">
+  <!-- Favicon (opcional mas recomendado) -->
+  <link rel="icon" type="image/png" href="https://www.imobiliariapistori.com.br/assents/logo.png">
 
 
-<style>
+  <style>
+    :root {
+      /* Colors */
+      --color-primary-gold: #c6a85a;
+      --color-dark: #111111;
+      --color-gray: #666;
+      --color-light: #f4f4f4;
+      --color-launch-green: #2d9b6d;
+      --color-alert-red: #e74c3c;
+      --color-purple: #6b4c9a;
 
-:root{
-  --gold:#c6a85a;
-  --dark:#111111;
-  --gray:#666;
-  --light:#f4f4f4;
-}
+      /* Typography */
+      --font-family-body: 'Segoe UI', Arial, sans-serif;
+      --font-size-h1: 1.9rem;
+      --font-size-h2: 1.6rem;
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+      /* Spacing */
+      --spacing-xs: 8px;
+      --spacing-sm: 12px;
+      --spacing-md: 20px;
+      --spacing-lg: 30px;
+      --spacing-xl: 80px;
 
-body{
-  font-family:'Segoe UI', Arial, sans-serif;
-  color:var(--dark);
-  line-height:1.6;
-  background:white;
-}
+      /* Border Radius */
+      --radius-sm: 4px;
+      --radius-md: 10px;
 
-a{
-  text-decoration:none;
-}
+      /* Shadows */
+      --shadow-sm: 0 15px 35px rgba(0, 0, 0, 0.06);
+      --shadow-md: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
 
-/* ================= HERO ================= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-.hero{
-  width:100%;
-  background:#000;
-}
+    body {
+      font-family: var(--font-family-body);
+      color: var(--color-dark);
+      line-height: 1.6;
+      background: white;
+    }
 
-.hero img{
-  width:100%;
-  height:auto;
-  display:block;
-}
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-/* ================= INTRO ================= */
+    /* ================= HEADER & NAVIGATION ================= */
 
-.intro{
-  background:var(--light);
-  text-align:center;
-  padding:80px 20px;
-}
+    header {
+      background: var(--color-dark);
+      color: white;
+      padding: var(--spacing-md) var(--spacing-md);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
 
-.intro h1{
-  font-size:1.9rem;
-  margin-bottom:15px;
-  letter-spacing:1px;
-}
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-.intro p{
-  color:var(--gray);
-  max-width:650px;
-  margin:0 auto 30px auto;
-}
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
 
-.btn{
-  display:inline-block;
-  padding:14px 30px;
-  background:var(--gold);
-  color:#000;
-  font-weight:600;
-  border-radius:4px;
-  transition:0.3s;
-}
+    .logo img {
+      height: 80px;
+      width: auto;
+    }
 
-.btn:hover{
-  opacity:0.85;
-}
+    /* Hamburger Menu Button */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 5px;
+      background: none;
+      border: none;
+    }
 
-/* ================= SECTIONS ================= */
+    .hamburger span {
+      width: 25px;
+      height: 3px;
+      background: white;
+      border-radius: 2px;
+      transition: 0.3s ease;
+    }
 
-section{
-  padding:70px 20px;
-  max-width:1200px;
-  margin:auto;
-}
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(10px, 10px);
+    }
 
-.section-title{
-  text-align:center;
-  margin-bottom:50px;
-  font-size:1.6rem;
-  position:relative;
-}
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
 
-.section-title::after{
-  content:"";
-  width:70px;
-  height:3px;
-  background:var(--gold);
-  display:block;
-  margin:12px auto 0;
-}
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
 
-/* ================= CARDS ================= */
+    /* Navigation Menu */
+    nav {
+      display: flex;
+      gap: var(--spacing-lg);
+      align-items: center;
+    }
 
-.cards{
-  display:flex;
-  flex-direction:column;
-  gap:25px;
-}
+    nav a {
+      color: white;
+      font-size: 0.95rem;
+      transition: color 0.3s;
+      white-space: nowrap;
+    }
 
-.card{
-  background:white;
-  padding:30px;
-  border-radius:10px;
-  box-shadow:0 15px 35px rgba(0,0,0,0.06);
-  transition:0.3s ease;
-}
+    nav a:hover {
+      color: var(--color-primary-gold);
+    }
 
-.card:hover{
-  transform:translateY(-6px);
-}
+    .nav-buttons {
+      display: flex;
+      gap: var(--spacing-md);
+      align-items: center;
+    }
 
-.card h3{
-  margin-bottom:12px;
-  font-size:1.2rem;
-}
+    .btn-secondary {
+      padding: 10px 20px;
+      background: var(--color-primary-gold);
+      color: var(--color-dark);
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: opacity 0.3s;
+      white-space: nowrap;
+    }
 
-.card p{
-  color:var(--gray);
-  margin-bottom:20px;
-}
+    .btn-secondary:hover {
+      opacity: 0.85;
+    }
 
-/* ================= DIFERENCIAIS ================= */
+    .menu-icon {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      display: none;
+      flex-direction: column;
+      justify-content: space-around;
+    }
 
-.diferenciais{
-  background:var(--light);
-}
+    /* ================= MOBILE MENU ================= */
 
-.diferenciais ul{
-  list-style:none;
-  max-width:600px;
-  margin:0 auto;
-}
+    @media(max-width:767px) {
+      .hamburger {
+        display: flex;
+      }
 
-.diferenciais li{
-  margin-bottom:15px;
-  padding-left:25px;
-  position:relative;
-}
+      nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--color-dark);
+        flex-direction: column;
+        gap: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        padding: 0;
+      }
 
-.diferenciais li::before{
-  content:"•";
-  color:var(--gold);
-  font-size:1.2rem;
-  position:absolute;
-  left:0;
-}
+      nav.active {
+        max-height: 400px;
+        padding: var(--spacing-md) 0;
+      }
 
-/* ================= CONTATO ================= */
+      nav a {
+        padding: var(--spacing-md) var(--spacing-md);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        display: block;
+      }
 
-.contato{
-  background:var(--dark);
-  color:white;
-  text-align:center;
-  padding:80px 20px;
-}
+      .nav-buttons {
+        padding: var(--spacing-md);
+        flex-direction: column;
+        gap: var(--spacing-sm);
+      }
 
-.contato p{
-  color:#ccc;
-  margin-bottom:25px;
-}
+      .btn-secondary {
+        width: 100%;
+        text-align: center;
+      }
+    }
 
-footer{
-  background:#000;
-  color:#777;
-  text-align:center;
-  padding:20px;
-  font-size:0.85rem;
-}
+    @media(min-width:768px) {
+      .hamburger {
+        display: none;
+      }
 
-/* ================= DESKTOP ================= */
+      nav {
+        position: static;
+        max-height: none;
+        padding: 0;
+        gap: var(--spacing-lg);
+      }
 
-@media(min-width:768px){
+      nav a {
+        padding: 0;
+        border-bottom: none;
+      }
+    }
 
-  .intro h1{
-    font-size:2.4rem;
-  }
+    /* ================= INTRO ================= */
 
-  .cards{
-    flex-direction:row;
-  }
+    .intro {
+      background: var(--color-light);
+      text-align: center;
+      padding: var(--spacing-xl) var(--spacing-md);
+    }
 
-  .card{
-    flex:1;
-  }
+    .intro h1 {
+      font-size: var(--font-size-h1);
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
 
-}
+    .intro p {
+      color: var(--color-gray);
+      max-width: 650px;
+      margin: 0 auto 30px auto;
+    }
 
-</style>
+    .btn {
+      display: inline-block;
+      padding: 14px 30px;
+      background: var(--color-primary-gold);
+      color: #000;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      transition: 0.3s;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    /* ================= LAUNCHES CAROUSEL ================= */
+
+    .launches-carousel {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background: #000;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    .carousel-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .carousel-slides {
+      display: flex;
+      height: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-slide {
+      min-width: 100%;
+      height: 100%;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .carousel-slide:hover img {
+      transform: scale(1.05);
+    }
+
+    /* Carousel Controls */
+    .carousel-controls {
+      position: absolute;
+      bottom: var(--spacing-lg);
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: var(--spacing-sm);
+      z-index: 10;
+    }
+
+    .carousel-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .carousel-dot.active {
+      background: var(--color-primary-gold);
+      box-shadow: 0 0 8px rgba(198, 168, 90, 0.6);
+    }
+
+    .carousel-dot:hover {
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    /* Navigation Arrows */
+    .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: var(--spacing-md);
+      font-size: 1.5rem;
+      cursor: pointer;
+      z-index: 10;
+      transition: background 0.3s ease;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+    }
+
+    .carousel-arrow:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    .carousel-arrow.prev {
+      left: var(--spacing-md);
+    }
+
+    .carousel-arrow.next {
+      right: var(--spacing-md);
+    }
+
+    @media(max-width:600px) {
+      .carousel-arrow {
+        padding: var(--spacing-sm);
+        font-size: 1.2rem;
+        width: 36px;
+        height: 36px;
+      }
+
+      .carousel-arrow.prev {
+        left: var(--spacing-sm);
+      }
+
+      .carousel-arrow.next {
+        right: var(--spacing-sm);
+      }
+    }
+
+    /* ================= RESPONSIVE CAROUSEL HEIGHTS ================= */
+
+    @media(max-width:600px) {
+      .launches-carousel {
+        height: 250px;
+      }
+    }
+
+    @media(min-width:601px) and (max-width:1024px) {
+      .launches-carousel {
+        height: 350px;
+      }
+    }
+
+    @media(min-width:1025px) {
+      .launches-carousel {
+        height: 450px;
+      }
+    }
+
+    /* ================= PRODUCTS SECTION ================= */
+
+    .products-section {
+      padding: 70px 20px;
+      background: white;
+    }
+
+    .products-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--spacing-lg);
+    }
+
+    /* CTA Card */
+    .product-card.card-cta {
+      background: linear-gradient(135deg, #F4A300 0%, #FFB630 100%);
+      color: white;
+      padding: var(--spacing-md);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 350px;
+      text-align: center;
+    }
+
+    .cta-content {
+      max-width: 90%;
+    }
+
+    .cta-icon {
+      font-size: 48px;
+      display: block;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .cta-title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      margin-bottom: var(--spacing-sm);
+      line-height: 1.2;
+    }
+
+    .cta-description {
+      font-size: 0.9rem;
+      margin-bottom: var(--spacing-md);
+      opacity: 0.95;
+      line-height: 1.4;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 24px;
+      background: white;
+      color: #F4A300;
+      font-weight: bold;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s;
+      border: 2px solid white;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+
+    .cta-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Product Card */
+    .product-card:not(.card-cta) {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      background: #000;
+    }
+
+    .card-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+    }
+
+    .card-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+      z-index: 2;
+    }
+
+    .card-badge {
+      position: absolute;
+      top: var(--spacing-md);
+      right: var(--spacing-md);
+      background: #F4A300;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      z-index: 4;
+    }
+
+    .card-content {
+      position: absolute;
+      bottom: var(--spacing-lg);
+      left: var(--spacing-lg);
+      right: var(--spacing-lg);
+      z-index: 3;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: var(--spacing-md);
+      line-height: 1.3;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 14px;
+      border: 1.5px solid #F4A300;
+      color: #F4A300;
+      background: rgba(0, 0, 0, 0.4);
+      /* Fundo sutil para contraste */
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      /* Texto em negrito */
+      width: fit-content;
+      gap: var(--spacing-xs);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .card-pagination {
+      position: absolute;
+      bottom: var(--spacing-md);
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      z-index: 3;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .dot.active {
+      background: #F4A300;
+      box-shadow: 0 0 6px rgba(244, 163, 0, 0.6);
+    }
+
+    .dot:hover {
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    /* ================= SECTIONS ================= */
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: var(--font-size-h2);
+      position: relative;
+    }
+
+    .section-title::after {
+      content: "";
+      width: 70px;
+      height: 3px;
+      background: var(--color-primary-gold);
+      display: block;
+      margin: 12px auto 0;
+    }
+
+    /* ================= CARDS ================= */
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Efeito de movimento nos product cards */
+    .product-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+      /* Move para cima */
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .product-card:active {
+      transform: translateY(-4px);
+      /* Feedback de clique */
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      color: var(--color-gray);
+      margin-bottom: 20px;
+    }
+
+    /* ================= DIFERENCIAIS ================= */
+
+    .diferenciais {
+      background: var(--color-light);
+    }
+
+    .diferenciais ul {
+      list-style: none;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .diferenciais li {
+      margin-bottom: 15px;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    .diferenciais li::before {
+      content: "•";
+      color: var(--color-primary-gold);
+      font-size: 1.2rem;
+      position: absolute;
+      left: 0;
+    }
+
+    /* ================= CONTATO ================= */
+
+    .contato {
+      background: var(--color-dark);
+      color: white;
+      text-align: center;
+      padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .contato p {
+      color: #ccc;
+      margin-bottom: 25px;
+    }
+
+    footer {
+      background: #000;
+      color: #777;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+    }
+
+    /* ================= RESPONSIVE PRODUCTS GRID ================= */
+
+    @media(min-width:600px) {
+      .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media(min-width:1025px) {
+      .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    /* ================= DESKTOP ================= */
+
+    @media(min-width:768px) {
+
+      .intro h1 {
+        font-size: 2.4rem;
+      }
+
+      .cards {
+        flex-direction: row;
+      }
+
+      .card {
+        flex: 1;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- HERO COM IMAGEM RESPONSIVA -->
-<header class="hero">
-  <img src="assents/topo.png" alt="Pistori & Associados">
-</header>
+  <!-- HEADER WITH NAVIGATION -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="assents/logohorizontalPreto.png" alt="Pistori & Associados">
+        <!--span>Pistori</span-->
+      </div>
 
-<!-- INTRO -->
-<section class="intro">
-  <h1>Lançamentos Exclusivos de Alto Padrão</h1>
-  <p>
-    Especialistas em condomínios de chácaras e empreendimentos premium na Grande Goiânia.
-    Projetos selecionados com alto potencial de valorização e qualidade diferenciada.
-  </p>
-  <a href="#contato" class="btn">Fale Conosco</a>
-</section>
+      <button class="hamburger" id="hamburgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-<!-- EMPREENDIMENTOS -->
-<section>
-  <h2 class="section-title">Empreendimentos</h2>
+      <nav id="navMenu">
+        <a href="#produtos">Produtos</a>
+        <a href="#blog">Blog</a>
+        <a href="#institucional">Institucional</a>
+        <a href="#fale-conosco">Fale Conosco</a>
+        <div class="nav-buttons">
+          <a href="#cliente" class="btn-secondary">Já sou cliente</a>
+          <a href="#fale-conosco" class="btn-secondary">Fale Conosco</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
-  <div class="cards">
+  <!-- LAUNCHES CAROUSEL SECTION -->
+  <div class="launches-carousel">
+    <div class="carousel-wrapper">
+      <div class="carousel-slides" id="carouselSlides">
+        <a href="#produto1" class="carousel-slide">
+          <img src="assents/topo.png" alt="Empreendimento Pistori - Slide 1">
+        </a>
+        <a href="#produto2" class="carousel-slide">
+          <img src="assents/topo2.png" alt="Provence - Lançamento Imobiliário">
+        </a>
+        <a href="#produto3" class="carousel-slide">
+          <img src="assents/topo21.png" alt="Empreendimento Pistori - Slide 3">
+        </a>
+      </div>
 
-    <div class="card">
-      <h3>Quintas do Cerrado</h3>
-      <p>Lotes amplos integrados à natureza, lagos, segurança 24h e infraestrutura completa de lazer.</p>
-      <a href="#contato" class="btn">Saiba Mais</a>
+      <!-- Navigation Arrows -->
+      <button class="carousel-arrow prev" id="prevBtn" aria-label="Slide anterior">
+        ❮
+      </button>
+      <button class="carousel-arrow next" id="nextBtn" aria-label="Próximo slide">
+        ❯
+      </button>
     </div>
 
-    <div class="card">
-      <h3>Portal do Lago</h3>
-      <p>Condomínio fechado de alto padrão com excelente localização e grande potencial de valorização.</p>
-      <a href="#contato" class="btn">Saiba Mais</a>
+    <!-- Pagination Dots -->
+    <div class="carousel-controls">
+      <span class="carousel-dot active" data-slide="0"></span>
+      <span class="carousel-dot" data-slide="1"></span>
+      <span class="carousel-dot" data-slide="2"></span>
     </div>
-
-    <div class="card">
-      <h3>Alteza do Lago</h3>
-      <p>Infraestrutura premium, paisagismo diferenciado e proximidade estratégica com Goiânia.</p>
-      <a href="#contato" class="btn">Saiba Mais</a>
-    </div>
-
   </div>
-</section>
 
-<!-- DIFERENCIAIS -->
-<section class="diferenciais">
-  <h2 class="section-title">Por Que Escolher a Pistori?</h2>
-  <ul>
-    <li>Especialização em lançamentos de alto padrão</li>
-    <li>Atuação estratégica na Grande Goiânia</li>
-    <li>Empreendimentos com alto potencial de valorização</li>
-    <li>Atendimento consultivo e personalizado</li>
-  </ul>
-</section>
+  <!-- INTRO -->
+  <section class="intro">
+    <h1>Lançamentos Exclusivos de Alto Padrão</h1>
+    <p>
+      Especialistas em condomínios de chácaras e empreendimentos premium na Grande Goiânia.
+      Projetos selecionados com alto potencial de valorização e qualidade diferenciada.
+    </p>
+    <a href="#contato" class="btn">Fale Conosco</a>
+  </section>
 
-<!-- CONTATO -->
-<section class="contato" id="contato">
-  <h2>Entre em Contato</h2>
-  <p>Agende uma visita ou receba informações exclusivas.</p>
-  <a href="mailto:contato@imobiliapistori.com.br" class="btn">Enviar Email</a>
-  <p>WhatsApp: (62) 9XXXX-XXXX</p>
-</section>
+  <!-- LOTEAMENTOS/EMPREENDIMENTOS -->
+  <section class="products-section">
+    <div class="products-grid">
 
-<footer>
-  © 2026 Pistori & Associados – Todos os direitos reservados
-</footer>
+      <!-- CTA Card -->
+      <div class="product-card card-cta">
+        <div class="cta-content">
+          <span class="cta-icon">🏔️</span>
+          <h2 class="cta-title">Loteamentos</h2>
+          <p class="cta-description">Opções de lotes para todos os tipos de bolsos e de sonhos.</p>
+          <a href="#produtos" class="cta-button">Ver todos os loteamentos</a>
+        </div>
+      </div>
+
+      <!-- Product Card 1 -->
+      <div class="product-card">
+        <div class="card-image"
+          style="background-image: url('https://images.pexels.com/photos/30587969/pexels-photo-30587969.jpeg')"></div>
+        <div class="card-overlay"></div>
+        <span class="card-badge">Loteamento</span>
+        <div class="card-content">
+          <h3 class="card-title">Quintas do Cerrado</h3>
+          <div class="card-tags">
+            <span class="tag">🏷️ Lançamento</span>
+            <span class="tag">🏠 Lote Condomínio</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="product-card">
+        <div class="card-image"
+          style="background-image: url('https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg')"></div>
+        <div class="card-overlay"></div>
+        <span class="card-badge">Loteamento</span>
+        <div class="card-content">
+          <h3 class="card-title">Portal do Lago</h3>
+          <div class="card-tags">
+            <span class="tag">🏷️ Em obras</span>
+            <span class="tag">🏠 Lote Condomínio</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="product-card">
+        <div class="card-image"
+          style="background-image: url('https://images.pexels.com/photos/4426226/pexels-photo-4426226.jpeg')"></div>
+        <div class="card-overlay"></div>
+        <span class="card-badge">Loteamento</span>
+        <div class="card-content">
+          <h3 class="card-title">Alteza do Lago</h3>
+          <div class="card-tags">
+            <span class="tag">🏷️ Lançamento</span>
+            <span class="tag">🏠 Loteamento</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="diferenciais">
+    <h2 class="section-title">Por Que Escolher a Pistori?</h2>
+    <ul>
+      <li>Especialização em lançamentos de alto padrão</li>
+      <li>Atuação estratégica na Grande Goiânia</li>
+      <li>Empreendimentos com alto potencial de valorização</li>
+      <li>Atendimento consultivo e personalizado</li>
+    </ul>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Agende uma visita ou receba informações exclusivas.</p>
+    <a href="mailto:contato@imobiliapistori.com.br" class="btn">Enviar Email</a>
+    <p>WhatsApp: (62) 9XXXX-XXXX</p>
+  </section>
+
+  <footer>
+    © 2026 Pistori & Associados – Todos os direitos reservados
+  </footer>
+
+  <script>
+    // Mobile Menu Toggle
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    if (hamburgerBtn) {
+      hamburgerBtn.addEventListener('click', function () {
+        hamburgerBtn.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+
+      // Close menu when a link is clicked
+      const navLinks = navMenu.querySelectorAll('a');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          hamburgerBtn.classList.remove('active');
+          navMenu.classList.remove('active');
+        });
+      });
+    }
+
+    // Carousel Functionality
+    const carouselSlides = document.getElementById('carouselSlides');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const dots = document.querySelectorAll('.carousel-dot');
+
+    let currentSlide = 0;
+    const totalSlides = 3;
+    let autoplayInterval;
+
+    // Update carousel position
+    function updateCarousel() {
+      const offset = -currentSlide * 100;
+      carouselSlides.style.transform = `translateX(${offset}%)`;
+
+      // Update active dot
+      dots.forEach((dot, index) => {
+        if (index === currentSlide) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+    }
+
+    // Navigate to next slide
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      updateCarousel();
+    }
+
+    // Navigate to previous slide
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      updateCarousel();
+    }
+
+    // Navigate to specific slide via dot
+    function goToSlide(slideIndex) {
+      currentSlide = slideIndex;
+      updateCarousel();
+    }
+
+    // Event listeners for buttons
+    if (nextBtn) {
+      nextBtn.addEventListener('click', nextSlide);
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', prevSlide);
+    }
+
+    // Event listeners for dots
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+        goToSlide(index);
+      });
+    });
+
+    // Autoplay functionality
+    function startAutoplay() {
+      autoplayInterval = setInterval(nextSlide, 5000);
+    }
+
+    // Stop autoplay
+    function stopAutoplay() {
+      clearInterval(autoplayInterval);
+    }
+
+    // Start autoplay on page load
+    startAutoplay();
+
+    // Stop autoplay on hover/focus
+    const carousel = document.querySelector('.launches-carousel');
+    if (carousel) {
+      carousel.addEventListener('mouseenter', stopAutoplay);
+      carousel.addEventListener('mouseleave', startAutoplay);
+      carousel.addEventListener('focusin', stopAutoplay);
+      carousel.addEventListener('focusout', startAutoplay);
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') prevSlide();
+      if (e.key === 'ArrowRight') nextSlide();
+    });
+  </script>
 
 </body>
+
 </html>

@@ -5,32 +5,46 @@
   <meta charset="UTF-8">
   <title>Driver dos Produtos</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
 
   <link rel="stylesheet" href="style.css">
+  <script>
+    // Forçar a remoção de Service Workers que podem estar travando o cache
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
 </head>
+
 <body>
 
-<header class="hero">
-  <div class="hero-content">
-    <!--img
+  <header class="hero">
+    <div class="hero-content">
+      <!--img
       src="logo-sanvares.png"
       alt="Pistori & Associados"
       class="hero-logo"
     /-->
 
-    <h2>Suporte Pistori</h2>
-    <p>Material de marketing</p>
-  </div>
-</header>
+      <h2>Suporte Pistori</h2>
+      <p>Material de marketing</p>
+    </div>
+  </header>
 
-<section class="container">
-  <!-- h1>Clique e vá direto ao driver dos produtos</h1>
+  <section class="container">
+    <!-- h1>Clique e vá direto ao driver dos produtos</h1>
   <p class="subtitle">Verifique seu produto foco, utilize os materiais</p-->
 
-  <div id="cards" class="cards"></div>
-</section>
+    <div id="cards" class="cards"></div>
+  </section>
 
-<!--section class="sales-script">
+  <!--section class="sales-script">
   <h2>Script de vendas</h2>
   <p class="subtitle">
     Utilize mensagens de vendas de acordo com a consciência do seu cliente
@@ -83,55 +97,69 @@
       <button>Ver</button>
     </div>
   </div-->
-</section>
+  </section>
 
-<footer class="footer">
-  <div class="footer-content">
-    <!--img
+  <footer class="footer">
+    <div class="footer-content">
+      <!--img
       src="logo-pistori.png"
       alt="Pistori Imóveis"
       class="footer-logo"
     /-->
 
-    <div class="footer-divider"></div>
+      <div class="footer-divider"></div>
 
-    <p class="footer-text">
-      Copyright © Pistori & Associados -
-      Todos os direitos reservados 
-      <!--a href="#">| Termos de Uso</a> |
+      <p class="footer-text">
+        Copyright © Pistori & Associados -
+        Todos os direitos reservados
+        <!--a href="#">| Termos de Uso</a> |
       <a href="#">Políticas de Privacidade</a> |
       <a href="#">Políticas de Cookies</a-->
-    </p>
-  </div>
-</footer>
+      </p>
+    </div>
+  </footer>
 
-<script src="data.js"></script>
-<script>
-  const container = document.getElementById("cards");
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script type="module">
+    // Carregar serviço com cache bust
+    const { default: ImoveisService } = await import('../dados/imoveis.js?v=' + Date.now());
 
-  produtos.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
+    const container = document.getElementById("cards");
 
-    card.innerHTML = `
+    // 1. Buscar dados do Supabase (apenas ativos)
+    const rawData = await ImoveisService.getFilter({ ativo: true });
+
+    // 2. Mapear para o formato que o HTML espera
+    const produtos = rawData.map(p => ({
+      nome: p.titulo,
+      descricao: p.subtitulo,
+      imagem: p.imagem_url,
+      botoes: p.links || []
+    }));
+
+    produtos.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      card.innerHTML = `
       <div class="image">
         <img src="${item.imagem}" alt="${item.nome}">
-        <!--span class="heart">❤</span-->
       </div>
       <div class="content">
         <h3>${item.nome}</h3>
         <p>${item.descricao}</p>
         <div class="buttons">
           ${item.botoes.map(btn => `
-            <a href="${btn.link}" target="_blank">${btn.texto}</a>
+            <a href="${btn.url || btn.link}" target="_blank">${btn.texto}</a>
           `).join("")}
         </div>
       </div>
     `;
 
-    container.appendChild(card);
-  });
-</script>
+      container.appendChild(card);
+    });
+  </script>
 
 </body>
+
 </html>

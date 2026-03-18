@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Mapa Pistori</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        // Forçar a remoção de Service Workers que podem estar travando o cache
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(registrations => {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
 </head>
+
 <body>
 
-<div id="filterBar">
-    <div class="header-logo">Pistori</div>
-    <select id="filterStatus">
-        <option value="todos">Todos os Status</option>
-        <option value="disponivel">Disponíveis</option>
-        <option value="reservado">Reservados</option>
-        <option value="vendido">Vendidos</option>
-    </select>
-</div>
-
-<div id="mapWrapper">
-    <div id="controls">
-        <button id="zoomIn">+</button>
-        <button id="zoomOut">−</button>
-        <button id="zoomReset">⟲</button>
+    <div id="filterBar">
+        <div class="header-logo">Pistori</div>
+        <select id="filterStatus">
+            <option value="todos">Todos os Status</option>
+            <option value="disponivel">Disponíveis</option>
+            <option value="reservado">Reservados</option>
+            <option value="vendido">Vendidos</option>
+        </select>
     </div>
-    <div id="mapContainer">
-        <img id="mapImage" src="ImpQuintas.png" draggable="false">
-    </div>
-</div>
 
-<div id="modalLote" class="modal">
-    <div class="modal-card">
-        <div id="detalheLote"></div>
+    <div id="mapWrapper">
+        <div id="controls">
+            <button id="zoomIn">+</button>
+            <button id="zoomOut">−</button>
+            <button id="zoomReset">⟲</button>
+        </div>
+        <div id="mapContainer">
+            <img id="mapImage" src="ImpQuintas.png" draggable="false">
+        </div>
     </div>
-</div>
 
-<script src="script.js"></script>
+    <div id="modalLote" class="modal">
+        <div class="modal-card">
+            <div id="detalheLote"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module">
+        // Forçar o carregamento do script sem cache
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = 'script.js?v=' + Date.now();
+        document.body.appendChild(script);
+    </script>
 </body>
+
 </html>

@@ -12,39 +12,62 @@ filterStatus.addEventListener('change', aplicarFiltros);
 filterParcela.addEventListener('change', aplicarFiltros);
 
 
-// CARREGAR DADOS
+import ImplantacoesService from '../../../dados/implantacoes.js';
+
+// CARREGAR DADOS DO SUPABASE
+const propertyId = 12; // Manoel Prada
+
 let lotes = [];
 
-fetch('dados.json')
-  .then(res => res.json())
-  .then(data => {
+async function loadData() {
+    console.log("Buscando dados no Supabase para Manoel Prada (ID 12)");
+    const data = await ImplantacoesService.getByImovelId(propertyId);
+
+    if (!data) {
+        console.error("Nenhum dado encontrado no Supabase.");
+        return;
+    }
+
     lotes = data;
+    console.log(`Sucesso! ${lotes.length} lotes carregados.`);
+
     const init = () => {
-      const w = img.offsetWidth;
-      const h = img.offsetHeight;
+        const w = img.offsetWidth || img.naturalWidth;
+        const h = img.offsetHeight || img.naturalHeight;
 
-      lotes.forEach(p => {
-        const div = document.createElement("div");
-        div.className = `ponto ${p.status}`;
-        div.dataset.status = p.status;
-        div.dataset.parcela = p.dados_financeiros.valor_parcela_300x;
+        if (w === 0 || h === 0) {
+            setTimeout(init, 500);
+            return;
+        }
 
-        div.style.left = (p.x * w) + "px";
-        div.style.top = (p.y * h) + "px";
+        // Limpar pontos antigos
+        container.querySelectorAll('.ponto').forEach(p => p.remove());
 
-        div.onclick = (e) => {
-          e.stopPropagation();
-          mostrarDetalhes(p);
-        };
+        lotes.forEach(p => {
+            const div = document.createElement("div");
+            const statusLower = p.status.toLowerCase();
+            div.className = `ponto ${statusLower}`;
+            div.dataset.status = statusLower;
+            div.dataset.parcela = p.dados_financeiros.valor_parcela_300x;
 
-        container.appendChild(div);
-      });
+            div.style.left = (p.x * w) + "px";
+            div.style.top = (p.y * h) + "px";
 
-      updateTransform();
+            div.onclick = (e) => {
+                e.stopPropagation();
+                mostrarDetalhes(p);
+            };
+
+            container.appendChild(div);
+        });
+
+        updateTransform();
     };
 
     if (img.complete) init(); else img.onload = init;
-  });
+}
+
+loadData();
 
 function updateTransform() {
     scale = Math.min(Math.max(0.1, scale), 4);
@@ -131,7 +154,7 @@ function mostrarDetalhes(p) {
 }
 
 
-window.onclick = (e) => { if(e.target.id === 'modalLote') e.target.style.display = 'none'; };
+window.onclick = (e) => { if (e.target.id === 'modalLote') e.target.style.display = 'none'; };
 
 function aplicarFiltros() {
     const status = filterStatus.value;
